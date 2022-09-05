@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI coding helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1><span style="color: #ffffff;">AI</span><span style="color: #ff0000;"> coding helper</span></h1>
+        </div>
+        <div class="menu">
+            <div class="menu-item" style="margin-top: 10px;">
+                <input type="radio" name="type" value="question" id="question" checked>
+                <label for="question" style="color:white">Programming question</label>
+            </div>
+            <div class="menu-item" style="margin-top: 10px;">
+                <input type="radio" name="type" value="explenation" id="explenation">
+                <label for="explenation" style="color:white;">Code explenation</label>
+            </div>
+            <div class="menu-item" style="margin-top: 10px;">
+                <input type="radio" name="type" value="fix_bugs" id="fix_bugs" disabled>
+                <label for="fix_bugs" style="color:grey;">Code edit & fix bugs (soon)</label>
+            </div>            
+        </div>
+        <div class="input">
+            <textarea id="prompt" placeholder="Ask your question here" style="width: 493px; height: 150px; resize: vertical; margin-top: 10px; display: block;" spellcheck="false" class="javascript"></textarea>
+            <textarea id="code" placeholder="Explain your problem or what you want change in your code here" style="width: 493px; height: 75px; resize: none; margin-top: 10px; display: none;" spellcheck="false"></textarea>
+            <button id="generate" style="width: 500px; margin-top: 10px; background-color: #ff0000ee; color: #fffffffd; font-weight: bold;" title="ctrl + enter">Submit</button><span id="loading" style="display: none;">Loading...</span>
+        </div>
+        <div class="output">
+            <textarea id="result" placeholder="The results will appear here" readonly style="width: 500px;"></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

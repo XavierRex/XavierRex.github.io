@@ -1,0 +1,107 @@
+body {
+    background-color: #292929;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #292929;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid #3f3f3f;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.output textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    resize: none;
+    height: 200px;
+}
+
+#result {
+    background-color: #292929;
+    color: #ffffff;
+}
+
+#result:focus {
+    outline: none;
+}
+
+#result::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+#result::-moz-placeholder {
+    color: #ccc;
+}
+
+#result:-ms-input-placeholder {
+    color: #ccc;
+}
+
+#result:-moz-placeholder {
+    color: #ccc;
+}
+
+#prompt::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+#prompt::-moz-placeholder {
+    color: #ccc;
+}
+
+#prompt:-ms-input-placeholder {
+    color: #ccc;
+}
+
+#prompt:-moz-placeholder {
+    color: #ccc;
+}
+
+#prompt:focus {
+    outline: none;
+}
+
+#generate:hover {
+    background-color: #0097a7;
+}
+
+#generate:active {
+    background-color: #00838f;
+}
+
+#prompt {
+    background-color: #3b3b3b;
+}
+
+#prompt, #code {
+    color: #ffffff;
+}
