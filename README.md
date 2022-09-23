@@ -1,5 +1,5 @@
 
-# Project Title
+# AI coding helper
 
 This is a project for an AI assistant to answer programming questions and explain how code works.
 
