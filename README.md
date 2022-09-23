@@ -1,7 +1,7 @@
 
 # AI coding helper
 
-This is a project for an AI assistant to answer programming questions and explain how code works.
+This is a project of AI assistant that answer programming questions and explain how code works.
 
 
 ## Demo
